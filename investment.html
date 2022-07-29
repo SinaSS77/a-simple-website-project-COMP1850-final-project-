@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- This code modified from code originating from this blog post: 
+        https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df
+    -->
+    <title>Sunny-Days investment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="invest-body">
+    <header>
+        <h1 class="heading">Sunny-Days <span>Construction Ltd.</span></h1>
+        <button class="hamburger">
+            <span class="hamburger-content">
+                <span class="hamburger-icon" tabindex="-1">
+                    &#9776;
+                </span>
+                <span class="hamburger-text">
+                    Menu
+                </span>
+            </span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="our-company.html">About Us</a></li>
+            <li><a href="our-projects.html">Bold Projects</a></li>
+            <li><a href="our-team.html">Our Team</a></li>
+            <li><a id="current" href="investment.html">Financial partner</a></li>
+            <li><a href="lorem-ipsum.html">Lorem Ipsum</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="banner">
+
+            <p class="banner-big-text">Investment in<br> construction</p>
+
+            <p class="banner-text">We guarantee your profit...</p>
+        </section>
+        <div class="background">
+            <p class="text">
+                Why is investing in the construction industry important?<br>
+                The most important feature about the price of buildings, like other markets, is the demand system.
+                In fact, building is one of the most basic needs of people and due to the desire of people to diversify
+                for
+                their living space, this market has always been one of the most important businesses in the country.
+                In addition to the above, there are many reasons why investing in the construction industry is
+                important.
+            <h2>In general, the benefits of investing in construction can be summarized as follows:</h2>
+
+            <ul>
+                <li>Due to the low risk of investing in construction, our expectations of investing are met very
+                    quickly.
+                </li>
+                <li>Investments in the field of construction and real estate have always been valuable for banks, and
+                    therefore, suitable facilities and loans are generally provided to people who work in this field.
+                </li>
+            </ul>
+
+            <h3>Given the above, if you are interested in investing in this market with a smart and experienced team by
+                your
+                side, please fill out the following form. Our experts will contact you as soon as possible.</h3>
+                <hr>
+
+            <form>
+
+                <div>
+                    <h4>Personal Information:</h4>
+                    <form action="#" method="get">
+                        <div class="form-row">
+                            <div class="form-col">
+                                <label for="first-name">First Name:</label>
+                                <input type="text" name="first-name" id="first-name" required="required" />
+                            </div>
+                            <div class="form-col">
+                                <label for="middle-name">Middle name:</label>
+                                <input type="text" name="middle-name" id="middle-name" required="required" />
+                            </div>
+                            <div class="form-col">
+                                <label for="last-name">Last name:</label>
+                                <input type="text" name="last-name" id="last-name" required="required" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <fieldset>
+                                <legend class="legen">Gender:</legend>
+
+                                <input type="radio" id="male" name="gender" value="male" />
+                                <label for="male">Male</label>
+
+                                <input type="radio" id="female" name="gender" value="female" checked="checked" />
+                                <label for="female">Female</label>
+
+                                <input type="radio" id="non_binary" name="gender" value="non_binary" />
+                                <label for="non_binary">Non Binary</label>
+
+                            </fieldset>
+                            <fieldset>
+                                <legend class="legen">Birth date:</legend>
+                                <input type="date" name="date" id="date" />
+                            </fieldset>
+
+                        </div>
+
+                        <br>
+                        <hr>
+                        <h4>Address Information:</h4>
+
+                        <div class="form-row">
+                            <div class="form-col">
+                                <label for="street1">Street 1:</label>
+                                <input type="text" name="street1" id="street1" required="required" />
+                            </div>
+                            <div class="form-col">
+                                <label for="street2">Street 2:</label>
+                                <input type="text" name="street2" id="street2" required="required" />
+                            </div>
+                            <div class="form-col">
+                                <label for="street3">Street 3:</label>
+                                <input type="text" name="street3" id="street3" required="required" />
+                            </div>
+                        </div>
+
+
+                        <br>
+                        <hr>
+                        <h4>Contact Information:</h4>
+
+                        <div class="form-row">
+                            <div class="form-col">
+                                <label for="email">E-mail:</label>
+                                <input type="email" name="email" id="email" required="required" />
+                            </div>
+                            <div class="form-col">
+                                <label for="phone1">Phone number1:</label>
+                                <input type="number" name="phone1" id="phone1" required="required" />
+                            </div>
+                            <div class="form-col">
+                                <label for="phone2">Phone number2:</label>
+                                <input type="number" name="phone2" id="phone2" required="required" />
+                            </div>
+                        </div>
+                        <hr>
+                        <h4>Investment Information:</h4>
+
+                        <div class="form-row">
+                            <div class="form-col">
+                                <label for="money">The range of budget:</label>
+                                <input type="number" name="money" id="money" required="required" />
+                            </div>
+                            <div class="input-label-group long-label">
+                                <label for="invest-field">In which sector are you interested in investing?</label>
+                                <select name="invest-field" id="invest-field">
+
+                                    <option value="choose">Choose one...</option>
+                                    <option value="institutional">INSTITUTIONAL</option>
+                                    <option value="industrial">INDUSTRIAL</option>
+                                    <option value="comercial">COMMERCIAL</option>
+                                    <option value="residential">RESIDENTIAL</option>
+                                    <option value="international">INTERNATIONAL</option>
+
+                                </select>
+                            </div>
+                        </div>
+                </div>
+            </form>
+    </main>
+    <footer>
+        <div class="div-con-row" style="justify-content: space-around;">
+    
+            <div class="div-con-column">
+                <div class="div-con-row">
+                    <img class="img-contact" src="images/facebook.png" alt="Facebook">
+                    <p class="footer-p"><a class="footer-link" href="https://www.facebook.com/">Facebook</a></p>
+                </div>
+                <div class="div-con-row">
+                    <img class="img-contact" src="images/whatsapp.png" alt="Whatsapp">
+                    <p class="footer-p"><a class="footer-link" href="https://web.whatsapp.com/">Whatsapp</a></p>
+                </div>
+                <div class="div-con-row">
+                    <img class="img-contact" src="images/instagram.png" alt="Instagram">
+                    <p class="footer-p"><a class="footer-link" href="https://www.instagram.com/?hl=en">Instagram</a></p>
+                </div>
+                <div class="div-con-row">
+                    <img class="img-contact" src="images/twitter.png" alt="Twitter">
+                    <p class="footer-p"><a class="footer-link" href="https://twitter.com/home?lang=en">Twitter</a></p>
+                </div>
+            </div>
+    
+            <div class="div-con-column">
+                <section>
+                    <h3>Contact</h3>
+                    <p class="footer-p"><a class="footer-link" href="tel:1-604-604-4444">604-604-4444</a></p>
+                    <p class="footer-p"><a class="footer-link" href="info@besthoney.ca">info@besthoney.ca</a></p>
+    
+                </section>
+                <section>
+                    <h3>Design by:</h3>
+                    <p class="footer-p"> <a class="footer-link"
+                            href="https://www.linkedin.com/in/sina-molaverdikhani-091b081b4">Sina Molaverdikhani</a></p>
+                    <p class="footer-p"><a class="footer-link"
+                            href="https://www.bcit.ca/study/courses/comp1850">COMP1850</a></p>
+                </section>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/show-nav.js"></script>
+</body>
+
+</html>

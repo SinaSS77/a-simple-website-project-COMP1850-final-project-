@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- This code modified from code originating from this blog post: 
+        https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df
+    -->
+    <title>Sunny-Days introduction</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="lorem-body">
+    <header>
+        <h1 class="heading">Sunny-Days <span>Construction Ltd.</span></h1>
+        <button class="hamburger">
+            <span class="hamburger-content">
+                <span class="hamburger-icon" tabindex="-1">
+                    &#9776;
+                </span>
+                <span class="hamburger-text">
+                    Menu
+                </span>
+            </span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="our-company.html">About Us</a></li>
+            <li><a href="our-projects.html">Bold Projects</a></li>
+            <li><a href="our-team.html">Our Team</a></li>
+            <li><a href="investment.html">Financial partner</a></li>
+            <li><a id="current" href="lorem-ipsum.html">Lorem Ipsum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="lorem-row">
+
+            <div>
+                <h2>Lorem ipsum dolor!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit. Aenean commodo ligula eget dolor. Aenean massa. <a href="#">fake hyperlink</a>
+                    Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                <ul class="ul-checkmark">
+                    <li>Lorem ipsum dolor sit amet consectetuer.</li>
+                    <li>Aenean commodo ligula eget dolor.</li>
+                    <li>Aenean massa cum sociis natoque penatibus.</li>
+                </ul>
+            </div>
+            <div>
+
+                <img id="lorem-image" src="https://via.placeholder.com/100/777.png" alt="placeholder image" />
+
+                <p>Aenean vulputate
+                    eleifend tellus. Aenean leo ligula, porttitor eu,
+                    consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+                    dapibus in, viverra quis, feugiat a, tellus. Phasellus
+                    viverra nulla ut metus varius laoreet. Quisque rutrum.
+                    Aenean imperdiet. Etiam ultricies nisi vel augue.
+                    Curabitur ullamcorper ultricies nisi. Integer tincidunt. Cras dapibus.
+                    Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+                    porttitor
+                    eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
+                    feugiat a,
+                    tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+                    Etiam
+                    ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Integer tincidunt. Cras
+                    dapibus.
+                    Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+                    porttitor
+                    eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
+                    feugiat a,
+                    tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+                    Etiam
+                    ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+            </div>
+        </div>
+
+        <blockquote
+            cite="https://www.opensourceshakespeare.org/views/plays/play_view.php?WorkID=othello&Act=5&Scene=2&Scope=scene">
+            <p>I am one who loved not wisely but too well.</p>
+            <p><cite>— William Shakespeare, The Tragedy of Othello</cite></p>
+        </blockquote>
+
+
+        <div class="border">
+            <h3>Aenean commodo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient
+                montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem.</p>
+
+            <pre><code>/*Example CSS code*/
+h1{ 
+background-color:blue;
+}</code>
+                    </pre>
+
+
+            <ol class="ol-lettermark">
+                <li>Lorem ipsum dolor sit amet consectetuer.</li>
+                <li>Aenean commodo ligula eget dolor.</li>
+                <li>Aenean massa cum sociis natoque penatibus.</li>
+            </ol>
+        </div>
+        <div class="lorem-grid">
+            <div id="box1">
+                <h3>Massa dolor</h3>
+                <p>Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            </div>
+            <div id="box2">
+                <h4>Massa dolor</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit. Aenean tesque eu, pretium quis, sem.</p>
+            </div>
+            <div id="box3">
+                <h5>Massa dolor</h5>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit. Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            </div>
+            <div id="box4">
+                <h6>Massa dolor</h6>
+                <p>Lorem ipsum dolor sit amet, sem.</p>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>Row 1 Field 1</td>
+                <td>Row 1 Field 2</td>
+                <td>Row 1 Field 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Field 1</td>
+                <td>Row 2 Field 2</td>
+                <td>Row 2 Field 3</td>
+            </tr>
+            <tr>
+                <td>Row 3 Field 1</td>
+                <td>Row 3 Field 2</td>
+                <td>Row 3 Field 3</td>
+            </tr>
+            <tr>
+                <td>Row 4 Field 1</td>
+                <td>Row 4 Field 2</td>
+                <td>Row 4 Field 3</td>
+            </tr>
+        </table>
+        </article>
+        </div>
+
+    </main>
+    <footer>
+        <div class="div-con-row" style="justify-content: space-around;">
+    
+            <div class="div-con-column">
+                <div class="div-con-row">
+                    <img class="img-contact" src="images/facebook.png" alt="Facebook">
+                    <p class="footer-p"><a class="footer-link" href="https://www.facebook.com/">Facebook</a></p>
+                </div>
+                <div class="div-con-row">
+                    <img class="img-contact" src="images/whatsapp.png" alt="Whatsapp">
+                    <p class="footer-p"><a class="footer-link" href="https://web.whatsapp.com/">Whatsapp</a></p>
+                </div>
+                <div class="div-con-row">
+                    <img class="img-contact" src="images/instagram.png" alt="Instagram">
+                    <p class="footer-p"><a class="footer-link" href="https://www.instagram.com/?hl=en">Instagram</a></p>
+                </div>
+                <div class="div-con-row">
+                    <img class="img-contact" src="images/twitter.png" alt="Twitter">
+                    <p class="footer-p"><a class="footer-link" href="https://twitter.com/home?lang=en">Twitter</a></p>
+                </div>
+            </div>
+    
+            <div class="div-con-column">
+                <section>
+                    <h3>Contact</h3>
+                    <p class="footer-p"><a class="footer-link" href="tel:1-604-604-4444">604-604-4444</a></p>
+                    <p class="footer-p"><a class="footer-link" href="info@besthoney.ca">info@besthoney.ca</a></p>
+    
+                </section>
+                <section>
+                    <h3>Design by:</h3>
+                    <p class="footer-p"> <a class="footer-link"
+                            href="https://www.linkedin.com/in/sina-molaverdikhani-091b081b4">Sina Molaverdikhani</a></p>
+                    <p class="footer-p"><a class="footer-link"
+                            href="https://www.bcit.ca/study/courses/comp1850">COMP1850</a></p>
+                </section>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/show-nav.js"></script>
+</body>
+
+</html>
